@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Impersonation
+</name>
+</assembly>
+<members>
+<member name="M:Impersonation.SetImpersonation.EndProcessing">
+	<summary>
+ Starts the impersonation
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Impersonation.SetImpersonation">
+	<summary>
+ Impersonates an authenticated user until Stop-Impersonation is called.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Impersonation.UndoImpersonation.EndProcessing">
+	<summary>
+ Stops the impersonation
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Impersonation.UndoImpersonation">
+	<summary>
+ Sets the current user account back to the logged on user.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Impersonation.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Impersonation.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Impersonation.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

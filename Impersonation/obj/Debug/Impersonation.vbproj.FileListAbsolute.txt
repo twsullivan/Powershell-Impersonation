@@ -1,0 +1,10 @@
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\bin\Debug\Impersonation.dll-help.xml
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\bin\Debug\Impersonation.dll
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\bin\Debug\Impersonation.pdb
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\bin\Debug\Impersonation.xml
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\obj\Debug\Impersonation.Resources.resources
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\obj\Debug\Impersonation.vbproj.GenerateResource.Cache
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\obj\Debug\Impersonation.dll
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\obj\Debug\Impersonation.xml
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\obj\Debug\Impersonation.pdb
+C:\Users\doittws\Documents\Visual Studio 2013\Projects\Impersonation\Impersonation\obj\Debug\Impersonation.vbprojResolveAssemblyReference.cache

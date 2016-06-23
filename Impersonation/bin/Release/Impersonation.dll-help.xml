@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<helpItems schema="maml">
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
+      <command:name>Start-Impersonation</command:name>
+      <maml:description>
+        <maml:para>Starts impersonating the specified account.</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>Impersonates an authenticated user until Stop-Impersonation is called.</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Start-Impersonation</maml:name>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="">
+          <maml:name>Username</maml:name>
+          <maml:description>
+            <maml:para>The username of the account to be impersonated.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="true">String</command:parameterValue>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="">
+          <maml:name>Password</maml:name>
+          <maml:description>
+            <maml:para>The password of the account to be impersonated.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="true">String</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:returnValues>
+      <command:returnValue>
+        <dev:type>
+          <maml:name>Account</maml:name>
+          <maml:description/>
+        </dev:type>
+        <maml:description>
+          <maml:para>
+            Start-Impersonation returns an Account object.
+          </maml:para>
+        </maml:description>
+      </command:returnValue>
+    </command:returnValues>
+    <maml:relatedLinks>
+      <maml:navigationLink>
+        <maml:linkText>Stop-Impersonation</maml:linkText>
+      </maml:navigationLink>
+    </maml:relatedLinks>
+  </command:command>
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
+      <command:name>Stop-Impersonation</command:name>
+      <maml:description>
+        <maml:para>Stops the impersonation created by Start-Impersonation</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>Sets the current user account back to the logged on user.</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Stop-Impersonation</maml:name>
+        <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="">
+          <maml:name>Account</maml:name>
+          <maml:description>
+            <maml:para>The account object returned by Start-Impersonation.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="true">Object</command:parameterValue>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <maml:relatedLinks>
+      <maml:navigationLink>
+        <maml:linkText>Start-Impersonation</maml:linkText>
+      </maml:navigationLink>
+    </maml:relatedLinks>
+  </command:command>
+</helpItems>
